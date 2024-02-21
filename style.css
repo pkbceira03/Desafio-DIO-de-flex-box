@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: azure;
+}
+
+.phone{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone img {
+    height: 50rem;
+}
+
+.container{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
+
+.getin{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    margin: 2vh;
+}
+
+.Pedro{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.btn1{
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    border: none;
+    margin: 0.5vh;
+    border-radius: 2px;
+}
+
+.btn2{
+    color: blue;
+    background-color: white;
+    padding: 3px;
+    border: none;
+    margin: 0.5vh;
+}
+
+.getin p{
+    color: black;
+}
+
+.getin span{
+    color: blue;
+}
+
+.instal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 1.3rem 0;
+}
+
+@media (max-width:1150px){
+    .phone {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .instagram-wraper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wraper {
+        width: 90%;
+    }
+
+    .container {
+        width: 100%;
+    }
+    
+    .getin, .instal{
+        width: auto;
+        padding: auto;
+        border: 1px solid transparent;
+    }
+}
+
+
